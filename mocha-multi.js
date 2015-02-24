@@ -12,7 +12,7 @@ var stdout = process.stdout;
 var stderr = process.stderr;
 
 // Should we hijack process.exit to wait for streams to close?
-var shouldExit = false;
+var shouldExit = true;
 
 // HAAAACK
 // if mocha is being run as commandline program
